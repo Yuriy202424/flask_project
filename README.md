@@ -6,7 +6,10 @@ In this project you can enter your name, number and amount of floppas you want t
 ## Thing you need to start it
 You need to pip install balls to use this, otherwise you will tremble from the mere thought of using this shit
 Things you also need to use it:
-pip install Flask, sqlAlchemy
+1)python -m venv .venv
+2).\.venv\Scripts\Activate (if you see "permission denied" error, open vscode as an admin)
+3)pip install Flask, sqlalchemy
+
 ✡︎―――――――✡︎―――――――✡︎――――――――✡︎
 ## Activating instruction
 Open the app.py file that is outside of an app foulder and click on start button in visual studio code, copy the link you got in logs or click on the link while holding Ctrl button
