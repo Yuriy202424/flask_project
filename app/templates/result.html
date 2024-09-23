@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Amount</th>
+            <th>Cost</th>
+        </tr>
+        {% for purchase in purchases %}
+        <tr>
+            <td>{{ purchase.name }}</td>
+            <td>+{{ purchase.number }}</td>
+            <td>{{ purchase.amount }}</td>
+            <td>{{ purchase.cost }}$</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+</body>
+</html>
